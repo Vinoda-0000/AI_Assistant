@@ -9,7 +9,6 @@ import pywhatkit
 import webbrowser
 import pyjokes
 import random
-import pyaudio
 
 # Initialize Text-to-Speech Engine
 engine = pyttsx3.init()
@@ -125,4 +124,5 @@ def run_assistant():
 
 if __name__ == "__main__":
     run_assistant()
+
 
